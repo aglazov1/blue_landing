@@ -1,0 +1,582 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+a {
+    text-decoration: none;
+}
+.container {
+    max-width: 1180px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header {
+    position: relative;
+    padding: 77px 183px 254px 204px;
+    width: 100%;
+    background: url("../../Day9 hm/images/backgroung-header.jpg") no-repeat fixed;
+    background-position: center center;
+    background-size: cover;
+    -webkit-background-size: cover;
+}
+h1, h2, h3, h4 {
+    margin-top: 0;
+}
+
+/*FONTS*/
+@font-face {
+    font-family: "GothamProBold";
+    src: url("../fonts/GothamProBold.woff");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "GothamProMedium";
+    src: url("../fonts/GothamProMedium.woff");
+    font-style: normal;
+    font-weight: normal;
+}
+/* montserrat-regular - latin */
+@font-face {
+    font-family:"Montserrat";
+    src: url("../fonts/montserrat.woff2"),
+    url("../fonts/montserrat.woff");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family:"Montserrat-Bold";
+    src: url("../fonts/Montserrat-Bold.woff2"),
+    url("../fonts/Montserrat-Bold.woff");
+    font-style: normal;
+    font-weight: normal;
+}
+/*NAVIGATION*/
+.logo-img {
+    max-width: 68px;
+    height: auto;
+}
+.topnav {
+    /*display: inline-block;*/
+    color: #ffff;
+    overflow: hidden;
+    float: right;
+    font-family: GothamProBold, sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+.topnav-link {
+    color: #f2f2f2;
+    text-decoration: none;
+    padding: 20px 0;
+    text-transform: uppercase;
+    margin-left: 38px;
+    list-style-type: none;
+    text-align: center;
+    border-bottom: 3px solid transparent;
+}
+.topnav-link:hover {
+    padding: 20px 0;
+    margin-left: 38px;
+    border-bottom: 3px solid #28c8c6;
+    transition-duration: .2s;
+}
+
+.topnav-link-join {
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px 35px;
+    margin-left: 20px;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    background: url("../../Day9 hm/images/arrow-16*16-button.png") no-repeat;
+    background-color: #a100ff;
+    background-position: 90%;
+}
+.topnav-link-join:hover {
+    background-color: #28c8c6;
+    transition-duration: .2s;
+}
+
+/*HEADER*/
+.header-title {
+    font-family: Montserrat, sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    color: #ffff;
+    text-transform: uppercase;
+    padding-top: 90px;
+    height: auto;
+    line-height: 55px;
+}
+.header-text {
+    color: #ffff;
+    font-family: GothamProMedium, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    height: auto;
+    border: none;
+}
+
+/*HEADER FORMS*/
+.header-form {
+    display: inline;
+}
+.design-select {
+    font-family: Montserrat, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #333333;
+    min-width: 240px;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    padding: 20px 60px 20px 30px;
+    text-align: left;
+    border: none;
+    border-radius: 4px;
+    display: inline-block;
+    background: url("../../Day9 hm/images/arrow-green-down-header-select.png") no-repeat;
+    background-color: white;
+    background-position: 90%;
+}
+.header-input {
+    display: inline;
+    font-family: Montserrat, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #333333;
+    margin-left: 17px;
+    min-width: 230px;
+    padding: 20px 60px 20px 30px;
+    text-align: left;
+    border: none;
+    border-radius: 4px;
+    background: url("../../Day9 hm/images/arrow-green-rigth-email-form.png") no-repeat;
+    background-position: 90%;
+    background-color: white;
+}
+input[placeholder] {
+    font-family: Montserrat, sans-serif;
+    font-weight: 400;
+    font-size: 14px
+}
+.header-button {
+    display: inline;
+    padding: 30px 30px;
+    border-radius: 4px;
+    border: none;
+    margin-left: 17px;
+    background: #28c8c6 url("../../Day9 hm/images/arrow-16*16-button.png") no-repeat;
+    background-position: 50%;
+    vertical-align: top;
+
+}
+.header-round {
+    width: 114px;
+    height: 114px;
+    border-radius: 50%;
+    background: url("../../Day9 hm/images/bg_design.png-1.jpg") no-repeat;
+    position: absolute;
+    margin: auto;
+    left: 0; bottom: -57px; right: 0;
+    z-index: 4;
+}
+.header-arrow-down-center {
+    width: 33px;
+    height: auto;
+    display: block;
+    position: absolute;
+    margin: auto;
+    top: 0; left: 0; bottom: 0; right: 0;
+}
+.contact-us {
+    width: 58px;
+    height: 186px;
+    position: absolute;
+    background-color: #8500d2;
+    border: none;
+    border-radius: 3px;
+    right: 0;
+    bottom: -93px;
+}
+.contact-us-text {
+    font-family: GothamProBold, sans-serif;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    writing-mode: tb-rl;
+    white-space:nowrap;
+    margin-top: 80%;
+    margin-left: 50%;
+    letter-spacing: 0.5px;
+}
+/*DESIGN*/
+.design {
+    width: 100%;
+    height: auto;
+    background: url("../../Day9 hm/images/bg_design.png-1.jpg") no-repeat fixed;
+    background-position: center center;
+    background-size: cover;
+    padding-top: 120px;
+}
+.design-heading {
+    font-family: GothamProBold, sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    color: #333b42;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+.design-text {
+    max-width: 678px;
+    height: auto;
+    margin: 0 auto;
+    font-family: GothamProMedium, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    color: #74797e;
+    padding-bottom: 60px;
+}
+.design-iphone-img {
+    display: block;
+    max-width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.design-round {
+    width: 114px;
+    height: 114px;
+    border-radius: 50%;
+    background-color: #28C8C6;
+    position: relative;
+    margin: auto;
+    left: 0;
+    bottom: 57px;
+    right: 0;
+}
+.design-arrow-down-center {
+    width: 33px;
+    display: block;
+    position: absolute;
+    margin: auto;
+    top: 0; left: 0; bottom: 0; right: 0;
+}
+/*FEATURES*/
+.features {
+    width: 100%;
+    background-color: #fff;
+    padding-bottom: 60px;
+}
+.features-heading {
+    font-family: Montserrat, sans-serif;
+    font-weight: 700;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #333b42;
+}
+.features-text {
+    font-family: GothamProMedium, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    max-width: 667px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 40px;
+    color: #74797e;
+}
+.feature-wrapper {
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+.feature-item {
+    width: 23%;
+    height: auto;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.feature-item-heading {
+    font-family: GothamProBold, sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    text-transform: uppercase;
+    padding-top: 40px;
+    color: #333b42;
+    text-align: center;
+}
+.feature-about-text {
+    font-family: GothamProMedium, sans-serif;
+    font-size: 14px;
+    color: #74797e;
+    text-align: center;
+}
+.feature-item-background {
+    width: 137px;
+    height: 137px;
+    border-radius: 50%;
+    background-color: #8500d2;
+    position: relative;
+    margin: auto;
+    top: 0; left: 0; bottom: 0; right: 0;
+}
+.feature-icon {
+    width: 50px;
+    height: auto;
+    display: block;
+    position: absolute;
+    margin: auto;
+    top: 0; left: 0; bottom: 0; right: 0;
+}
+
+/*GUIDELINES*/
+.guidelines {
+    width: 100%;
+    height: auto;
+    background-color: rgb(246, 249, 250);
+    margin-top: 0;
+    padding: 100px 30px 100px 30px;
+    border-top: 1px solid rgb(216, 224, 232);
+}
+.guidelines-round {
+    width: 114px;
+    height: 57px;
+    border-radius: 0 0 114px 114px;
+    border-bottom: 1px solid rgb(216, 224, 232);
+    border-left: 1px solid rgb(216, 224, 232);
+    border-right: 1px solid rgb(216, 224, 232);
+    position: relative;
+    margin: auto;
+    left: 0;
+    bottom: -57px;
+    right: 0;
+    background-color: white;
+    z-index: 4;
+}
+.guidelines-arrow-down-center {
+    width: 33px;
+    height: auto;
+    display: block;
+    position: absolute;
+    margin: auto;
+    top: -53px; left: 0; bottom: 0; right: 0;
+    z-index: 4;
+}
+.guidelines-heading {
+    font-family: Montserrat, sans-serif;
+    font-weight: 700;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #333b42;
+}
+.guidelines-text {
+    font-family: Gotham-Medium, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    max-width: 667px;
+    height: auto;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 40px;
+    color: #74797e;
+}
+.guidelines-menu {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 54px;
+}
+
+.guidelines-menu  > div {
+    font-family: "GothamProBold", sans-serif;
+    padding: 22px 30px;
+    font-size: 14px;
+    font-weight: 700;
+    border: 1px solid #28c8c6;
+    border-right: none;
+    text-transform: uppercase;
+    color: #28c8c6;
+}
+.guidelines-menu  > div:last-child {
+    border-right: 1px solid #28c8c6;;
+}
+
+.guidelines-menu  > div:hover {
+    background-color: #28c8c6;
+    padding: 22px 30px;
+    color: white;
+    transition: .2s ease-in;
+    transition-delay: 0.1s;
+}
+
+/*GUIDELINES FORMS*/
+.cards {
+    text-align: center;
+}
+.card-item-first {
+    max-width: 31%;
+    height: auto;
+    background-color: white;
+    display: inline-block;
+}
+.card-item {
+    max-width: 31%;
+    height: auto;
+    background-color: white;
+    display: inline-block;
+    margin-left: 20px;
+}
+.guidlines-img {
+    max-width: 100%;
+    height: auto;
+    /*display: inline-block;*/
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.guidlines-img:hover {
+    opacity: 0.5;
+    transition-duration: .2s;
+}
+.guidelines-select {
+    display: inline-block;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-color: white;
+    max-width: 100%;
+    padding: 20px 70px;
+    border: none;
+    font-family: Montserrat, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-align: center;
+    border-radius: 3px;
+    background: url("../images/arrow-green-guidelines.png") no-repeat;
+    background-position: right;
+}
+
+
+/*LAST COVER SECTION*/
+.last-cover {
+    width: 100%;
+    height: 890px;
+    position: relative;
+    background: url("../../Day9 hm/images/woman-face-1600*890.png") no-repeat center/cover;
+    -webkit-background-size: cover;
+}
+.cover-logo {
+    position: absolute;
+    display: inline-block;
+    top: 330px;
+    left: 220px;
+    max-width: 177px;
+    height: auto;
+}
+.cover-wrapper {
+    position: absolute;
+    top: 334px;
+    left: 420px;
+    max-width: 500px;
+    height: auto;
+}
+.cover-title {
+    font-family: Montserrat, sans-serif;
+    font-size: 60px;
+    color: #ffff;
+    text-transform: uppercase;
+    line-height: 55px;
+}
+.cover-text {
+    display: inline-block;
+    color: #ffff;
+    font-family: GothamProMedium, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+}
+.cover-computer {
+    position: absolute;
+    display: inline-block;
+    right: 100px;
+    top: 370px;
+    width: 80%;
+    height: auto;
+}
+/*FOOTER*/
+.footer {
+    position: relative;
+    padding: 0 206px 79px 200px;
+    width: 100%;
+    max-height: 1105px;
+}
+.footer-social-icons {
+    display: inline-block;
+    margin-top: 694px;
+    float: right;
+}
+.footer-table {
+    top: 780px;
+    width: 100%;
+    font-family: Montserrat, sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #8297a7;
+}
+.standart-column {
+    width: 12%;
+    text-align: left;
+    padding-top: 26px;
+    vertical-align: top;
+}
+.wide-column {
+    width: 76%;
+    text-align: right;
+    padding-top: 26px;
+}
+.last-row {
+    padding-top: 36px;
+    text-align: left;
+    vertical-align: bottom;
+}
+.footer-rounded_rectangle {
+    border-radius: 5px;
+    background-color: rgb(36, 36, 36);
+    opacity: 0.502;
+    position: absolute;
+    left: 27px;
+    top: 241px;
+    width: 50px;
+    height: 50px;
+    z-index: 5;
+}
+.white-arrow-top {
+    max-width: 17px;
+    height: auto;
+    display: block;
+    position: absolute;
+    margin: auto;
+    top: 0; left: 0; bottom: 0; right: 0;
+}
+
+

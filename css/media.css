@@ -1,0 +1,699 @@
+@media screen and (max-width: 1300px){
+    .cover-computer {
+        width: 50%;
+        top: 570px;
+    }
+    .cover-title {
+        font-size: 55px;
+        line-height: 45px;
+    }
+    .cover-text {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .header {
+        padding: 70px 140px 204px 140px;
+    }
+    .header-title {
+        font-size: 50px;
+        padding-top: 70px;
+        line-height: 50px;
+    }
+    .header-text {
+        font-size: 14px;
+    }
+    .card-item-first {
+        max-width: 48%;
+    }
+    .card-item {
+        max-width: 48%;
+    }
+    .feature-item-background {
+        width: 130px;
+        height: 130px;
+    }
+    .feature-item-heading {
+        font-size: 15px;
+        padding-top: 30px;
+
+    }
+    .feature-about-text {
+        font-size: 13px;
+    }
+    .cover-logo {
+        top: 300px;
+        left: 200px;
+        max-width: 147px;
+    }
+    .cover-wrapper {
+        top: 304px;
+        left: 350px;
+    }
+    .cover-title {
+        font-size: 50px;
+        line-height: 45px;
+    }
+    .cover-text {
+        font-size: 14px;
+    }
+    .cover-computer {
+        width: 40%;
+        top: 570px;
+    }
+    .last-cover {
+        height: 790px;
+    }
+
+@media screen and (max-width: 888px){
+    .header {
+        padding: 60px 80px 124px 80px;
+    }
+    .logo-img {
+        max-width: 58px;
+        position: absolute;
+        top: 30px;
+        left: 70px;
+    }
+    .topnav {
+        font-size: 12px;
+        padding-bottom: 40px;
+        margin-left: 7px;
+    }
+    .topnav-link {
+        padding: 15px 10px;
+        margin-left: 5px;
+    }
+    .topnav-link-join {
+        padding: 15px 25px;
+        margin-left: 15px;
+    }
+    .arrow-right {
+        max-width: 14px;
+        margin-left: 20px;
+    }
+    .header-title {
+        font-size: 45px;
+        line-height: 45px;
+    }
+    .header-text {
+        font-size: 12px;
+    }
+    .design-select {
+        font-size: 14px;
+        min-width: 160px;
+        padding: 20px 30px 20px 10px;
+    }
+    .header-input {
+        font-size: 12px;
+        margin-left: 10px;
+        min-width: 90px;
+        padding: 20px 10px 21px 10px;
+    }
+    .header-button {
+        padding: 29px 29px 30px 29px;
+        margin-left: 10px;
+    }
+    .contact-us {
+        width: 50px;
+        height: 166px;
+        bottom: -73px;
+    }
+    .contact-us-text {
+        font-size: 14px;
+    }
+    .design-heading {
+        font-size: 35px;
+    }
+    .design-text {
+        font-size: 13px;
+    }
+    .design-iphone-img {
+        max-width: 300px;
+    }
+    .features {
+        padding-bottom: 30px;
+    }
+    .feature-item {
+        width: 48%;
+    }
+    .feature-item-background {
+        width: 127px;
+        height: 127px;
+    }
+    .features-heading {
+        font-size: 25px;
+    }
+    .features-text {
+        font-size: 13px;
+    }
+    .guidelines {
+        padding: 100px 30px 60px 30px;
+    }
+    .cover-logo {
+        top: 250px;
+        left: 90px;
+        max-width: 117px;
+    }
+    .cover-wrapper {
+        top: 254px;
+        left: 230px;
+    }
+    .cover-title {
+        font-size: 45px;
+        line-height: 40px;
+    }
+    .cover-text {
+        font-size: 11px;
+    }
+    .cover-computer {
+        width: 40%;
+        top: 500px;
+    }
+    .last-cover {
+        height: 690px;
+    }
+    .footer {
+        position: relative;
+        width: 100%;
+        max-height: 700px;
+    }
+    .footer-rounded_rectangle {
+        top: 150px;
+    }
+    .footer-social-icons {
+        display: inline-block;
+        margin-top: 294px;
+        float: right;
+    }
+    .footer-table {
+        font-size: 10px;
+    }
+    .standart-column {
+        padding-top: 20px;
+    }
+    .wide-column {
+        padding-top: 20px;
+    }
+    .last-row {
+        padding-top: 30px;
+    }
+}
+@media screen and (max-width: 595px){
+    .header {
+        padding: 40px 40px 100px 40px;
+    }
+    .logo-img {
+        max-width: 38px;
+        top: 20px;
+        left: 40px;
+    }
+    .topnav {
+        font-size: 9px;
+        padding-bottom: 30px;
+    }
+    .topnav-link {
+        padding: 10px 5px;
+        margin-left: 3px;
+    }
+    .topnav-link-join {
+        padding: 10px 25px;
+        background-position: 95%;
+        margin-left: 10px;
+    }
+    .arrow-right {
+        max-width: 10px;
+        margin-left: 5px;
+    }
+    .header-title {
+        font-size: 35px;
+        line-height: 30px;
+    }
+    .header-text {
+        font-size: 11px;
+    }
+    .design-select {
+        font-size: 11px;
+        min-width: 110px;
+        padding: 15px 5px 15px 5px;
+    }
+    .header-input {
+        font-size: 11px;
+        margin-left: 8px;
+        max-width: 60px;
+        padding: 12px 0 14px 5px;
+    }
+    .header-button {
+        padding: 22px 22px 23px 22px;
+        margin-left: 8px;
+    }
+    .contact-us {
+        width: 40px;
+        height: 126px;
+        bottom: -53px;
+    }
+    .contact-us-text {
+        font-size: 12px;
+    }
+    .header-round {
+        width: 90px;
+        height: 90px;
+        bottom: -48px;
+    }
+    .header-arrow-down-center {
+        width: 26px;
+    }
+    .design-round {
+        width: 90px;
+        height: 90px;
+        bottom: 48px;
+    }
+    .design-arrow-down-center {
+        width: 26px;
+    }
+    .guidelines-round {
+        width: 90px;
+        height: 45px;
+        bottom: -45px;
+    }
+    .guidelines-arrow-down-center {
+        width: 26px;
+        top: -44px;
+    }
+    .design {
+        padding: 60px 20px 0 20px;
+    }
+    .design-heading {
+        font-size: 25px;
+    }
+    .design-text {
+        font-size: 14px;
+        max-width: 500px;
+    }
+    .design-iphone-img {
+        max-width: 230px;
+    }
+    .features {
+        padding: 30px 20px;
+    }
+    .features-heading {
+        font-size: 24px;
+    }
+    .features-text {
+        font-size: 14px;
+    }
+    .feature-item {
+        width: 100%;
+    }
+    .feature-about-text {
+        font-size: 12px;
+    }
+    .guidelines {
+        padding: 90px 20px 70px 20px;
+    }
+    .guidelines-heading {
+        font-size: 25px;
+    }
+    .guidelines-text {
+        font-size: 14px;
+    }
+    .guidelines-menu  > div {
+        padding: 18px 20px;
+        font-size: 12px;
+    }
+    .card-item-first {
+        max-width: 99%;
+
+    }
+    .card-item {
+        max-width: 99%;
+        margin-left: 0;
+    }
+    .cover-logo {
+        top: 150px;
+        left: 50px;
+        max-width: 75px;
+    }
+    .cover-wrapper {
+        top: 154px;
+        left: 130px;
+    }
+    .cover-title {
+        font-size: 40px;
+        line-height: 35px;
+    }
+    .cover-text {
+        font-size: 9px;
+    }
+    .cover-computer {
+        width: 40%;
+        top: 400px;
+    }
+    .last-cover {
+        height: 490px;
+    }
+    .footer {
+        max-height: 600px;
+        padding: 0 10px 30px 10px;
+    }
+    .footer-rounded_rectangle {
+        top: 120px;
+    }
+    .footer-social-icons {
+        display: inline-block;
+        margin-top: 224px;
+        float: right;
+    }
+}
+
+@media screen and (max-width: 430px){
+    .header {
+        padding: 40px 10px 90px 10px;
+    }
+    .logo-img {
+        max-width: 25px;
+        top: 43px;
+        left: 20px;
+    }
+    .topnav {
+        padding-bottom: 20px;
+        font-size: 8px;
+    }
+    .topnav-link {
+        margin-left: 3px;
+    }
+    .topnav-link-join {
+        padding: 10px 20px;
+        margin-left: 5px;
+    }
+    .topnav-link-join {
+        background-size: 20%;
+    }
+    .design-select {
+        padding: 13px 6px 13px 6px;
+        background-size: 20%;
+    }
+    .header-input {
+        max-width: 70px;
+        padding: 11px 6px 13px 6px;
+        background-size: 20%;
+    }
+    input[placeholder] {
+        font-size: 12px
+    }
+    .header-button {
+        padding: 20px 20px;
+        background-size: 40%;
+    }
+    .design-heading {
+        font-size: 25px;
+    }
+    .design-text {
+        font-size: 9px;
+    }
+    .design-iphone-img {
+        max-width: 180px;
+    }
+    .features {
+        padding: 20px 10px;
+    }
+    .feature-item-background {
+        width: 117px;
+        height: 117px;
+    }
+    .guidelines {
+        padding: 70px 15px 50px 15px;
+    }
+    .features-heading {
+        font-size: 20px;
+    }
+    .features-text {
+        font-size: 10px;
+    }
+    .guidelines-heading {
+        font-size: 22px;
+    }
+    .guidelines-menu  > div {
+        padding: 14px 12px;
+        font-size: 12px;
+    }
+    .cover-logo {
+        top: 120px;
+        left: 60px;
+        max-width: 67px;
+    }
+    .cover-wrapper {
+        top: 124px;
+        left: 130px;
+    }
+    .cover-title {
+        font-size: 35px;
+        line-height: 33px;
+    }
+    .cover-text {
+        font-size: 9px;
+    }
+    .cover-computer {
+        width: 40%;
+        top: 400px;
+    }
+    .last-cover {
+        height: 450px;
+    }
+    .footer-table {
+        font-size: 10px;
+    }
+    .standart-column {
+        width: 17%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .header {
+        padding: 20px 15px 50px 15px;
+    }
+
+    .logo-img {
+        max-width: 22px;
+        top: 22px;
+        left: 15px;
+    }
+
+    .topnav {
+        padding-bottom: 20px;
+        font-size: 8px;
+    }
+
+    .topnav-link {
+        margin-left: 3px;
+    }
+
+    .topnav-link-join {
+        padding: 10px 15px;
+        margin-left: 3px;
+    }
+    .topnav-link-join {
+        background-size: 18%;
+        background-position: 90%;
+    }
+
+    .header-title {
+        font-size: 30px;
+        line-height: 30px;
+        padding-top: 0;
+    }
+
+    .header-text {
+        font-size: 9px;
+    }
+
+    .design-select {
+        padding: 12px 5px 12px 5px;
+        background-size: 18%;
+    }
+
+    .header-input {
+        max-width: 50px;
+        padding: 11px 0 12px 5px;
+        margin-left: 3px;
+        background-size: 18%;
+    }
+
+    input[placeholder] {
+        font-size: 12px;
+    }
+
+    .header-button {
+        padding: 21px 20px 17px 20px;
+        margin-left: 3px;
+    }
+
+    .contact-us {
+        width: 24px;
+        height: 86px;
+        bottom: -45px;
+    }
+
+    .contact-us-text {
+        font-size: 9px;
+    }
+
+    .header-round {
+        width: 55px;
+        height: 55px;
+        bottom: -31px;
+    }
+
+    .header-arrow-down-center {
+        width: 20px;
+    }
+
+    .design-round {
+        width: 55px;
+        height: 55px;
+        bottom: 27px;
+    }
+
+    .design-arrow-down-center {
+        width: 20px;
+    }
+
+    .guidelines-round {
+        width: 55px;
+        height: 27.5px;
+        bottom: -27px;
+    }
+
+    .guidelines-arrow-down-center {
+        width: 20px;
+        top: -22px;
+    }
+
+    .design {
+        padding: 40px 10px 0 10px;
+    }
+
+    .design-heading {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .design-text {
+        padding-bottom: 30px;
+    }
+
+    .design-iphone-img {
+        max-width: 150px;
+    }
+
+    .features {
+        padding: 10px 10px 20px 10px;
+    }
+
+    .features-heading {
+        font-size: 20px;
+    }
+
+    .features-text {
+        padding-bottom: 25px;
+    }
+
+    .feature-item-heading {
+        font-size: 12px;
+    }
+
+    .feature-about-text {
+        font-size: 10px;
+    }
+
+    .feature-item-background {
+        width: 100px;
+        height: 100px;
+    }
+
+    .feature-item-background {
+        width: 97px;
+        height: 97px;
+    }
+
+    .feature-icon {
+        width: 35px;
+    }
+
+    .guidelines {
+        padding: 60px 10px 30px 10px;
+    }
+
+    .guidelines-heading {
+        font-size: 20px;
+    }
+
+    .guidelines-text {
+        padding-bottom: 20px;
+        font-size: 10px;
+    }
+
+    .guidelines-menu {
+        padding-bottom: 30px;
+    }
+
+    .guidelines-menu > div {
+        padding: 10px 10px;
+        font-size: 8px;
+    }
+
+    .card-item {
+        max-width: 100%;
+        margin-left: 0;
+    }
+
+    .guidelines-select {
+        padding: 15px;
+        font-size: 12px;
+        background-position: 100%;
+    }
+
+    .cover-logo {
+        top: 120px;
+        left: 20px;
+        max-width: 55px;
+    }
+
+    .cover-wrapper {
+        top: 124px;
+        left: 80px;
+    }
+
+    .cover-title {
+        font-size: 30px;
+        line-height: 33px;
+    }
+
+    .cover-text {
+        font-size: 10px;
+    }
+
+    .cover-computer {
+        width: 40%;
+        top: 400px;
+    }
+
+    .last-cover {
+        height: 450px;
+    }
+
+    .footer {
+        padding: 0 10px 20px 10px;
+    }
+
+    .footer-rounded_rectangle {
+        left: 10px;
+    }
+
+    .footer-table {
+        font-size: 9px;
+        top: 300px;
+    }
+}}
+
